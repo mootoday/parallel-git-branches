@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to your new<br />demo app
+		to your new<br />hotfix app
 	</h1>
 
 	<h2>
