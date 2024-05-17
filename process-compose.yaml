@@ -1,0 +1,11 @@
+version: "0.5"
+
+processes:
+  init_dependencies:
+    namespace: init
+    command: npm install
+  dev_web:
+    command: npm run dev
+    depends_on:
+      init_dependencies:
+        condition: process_completed_successfully
